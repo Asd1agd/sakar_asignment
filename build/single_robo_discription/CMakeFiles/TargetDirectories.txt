@@ -1,0 +1,9 @@
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/uninstall.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/single_robo_discription_uninstall.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/test.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/edit_cache.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/rebuild_cache.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/list_install_components.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/install.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/install/local.dir
+/home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription/CMakeFiles/install/strip.dir

@@ -1,0 +1,59 @@
+running egg_info
+creating ../../build/single_robo_odometry/single_robo_odometry.egg-info
+writing ../../build/single_robo_odometry/single_robo_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/single_robo_odometry/single_robo_odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/single_robo_odometry/single_robo_odometry.egg-info/entry_points.txt
+writing requirements to ../../build/single_robo_odometry/single_robo_odometry.egg-info/requires.txt
+writing top-level names to ../../build/single_robo_odometry/single_robo_odometry.egg-info/top_level.txt
+writing manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+reading manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/imu_republisher.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odom_tf_pub_w_error.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odom_tf_pub_w_error_inv.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odometry_calculation.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odometry_error.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/__init__.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odom_tf_pub_.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+copying single_robo_odometry/odom_tf_pub_inv.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry
+running install
+running install_lib
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/imu_republisher.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odom_tf_pub_w_error.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odom_tf_pub_w_error_inv.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odometry_calculation.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odometry_error.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/__init__.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odom_tf_pub_.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build/lib/single_robo_odometry/odom_tf_pub_inv.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/imu_republisher.py to imu_republisher.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odom_tf_pub_w_error.py to odom_tf_pub_w_error.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odom_tf_pub_w_error_inv.py to odom_tf_pub_w_error_inv.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odometry_calculation.py to odometry_calculation.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odometry_error.py to odometry_error.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odom_tf_pub_.py to odom_tf_pub_.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry/odom_tf_pub_inv.py to odom_tf_pub_inv.cpython-310.pyc
+running install_data
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/share/ament_index
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/share/ament_index/resource_index
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/share/ament_index/resource_index/packages
+copying resource/single_robo_odometry -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/share/ament_index/resource_index/packages
+copying package.xml -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/share/single_robo_odometry
+running install_egg_info
+Copying ../../build/single_robo_odometry/single_robo_odometry.egg-info to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_republisher script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odom_tf_pub script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odom_tf_pub_inv script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odom_tf_pub_w_error script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odom_tf_pub_w_error_inv script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odometry_calculation script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+Installing odometry_error script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+writing list of installed files to '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/install.log'
