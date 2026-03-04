@@ -157,10 +157,10 @@ def generate_launch_description():
         actions=[amcl_node]
     ))
 
-    # ld.add_action(TimerAction(
-    #     period=2.0,
-    #     actions=[costmap_node]
-    # ))
+    ld.add_action(TimerAction(
+        period=2.0,
+        actions=[costmap_node]
+    ))
 
     # ld.add_action(costmap_node)
 

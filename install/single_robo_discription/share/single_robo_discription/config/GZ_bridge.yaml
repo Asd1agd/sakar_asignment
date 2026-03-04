@@ -63,3 +63,19 @@
   gz_type_name: "gz.msgs.IMU"
   direction: GZ_TO_ROS
 
+
+# ----------------------------
+# CAMERA IMAGE (GZ -> ROS)
+# ----------------------------
+- ros_topic_name: "/camera/image_raw"
+  gz_topic_name: "/robot/camera/image_raw"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "gz.msgs.Image"
+  direction: GZ_TO_ROS
+
+# (Optional) Camera info – uncomment if you also need the calibration data
+# - ros_topic_name: "/robot/camera/camera_info"
+#   gz_topic_name: "/robot/camera/camera_info"
+#   ros_type_name: "sensor_msgs/msg/CameraInfo"
+#   gz_type_name: "gz.msgs.CameraInfo"
+#   direction: GZ_TO_ROS

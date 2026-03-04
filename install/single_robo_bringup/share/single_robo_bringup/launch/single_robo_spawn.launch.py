@@ -72,9 +72,9 @@ def generate_launch_description():
     # Add gazebo spawn first
     ld.add_action(gazebo_spawn_launch)
 
-    # # Add joystick control nodes
-    # ld.add_action(joy_node)
-    # ld.add_action(teleop_node)
+    # Add joystick control nodes
+    ld.add_action(joy_node)
+    ld.add_action(teleop_node)
     
     # # Add delayed rviz2
     # ld.add_action(TimerAction(

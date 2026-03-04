@@ -1,0 +1,7 @@
+path: /content/drive/MyDrive/dataset
+
+train: images
+val: images
+
+names:
+  0: barcode

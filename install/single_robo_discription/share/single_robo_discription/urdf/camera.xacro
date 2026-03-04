@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Properties (adjust position/orientation as needed) -->
+  <xacro:property name="camera_link_name" value="camera_link"/>
+  <xacro:property name="camera_joint_name" value="camera_joint"/>
+  <xacro:property name="camera_frame" value="camera_frame"/>
+  <xacro:property name="camera_mass" value="0.1"/>
+  <xacro:property name="camera_xyz" value="${base_length/2} 0 0.15"/>   <!-- front, center, above base_link -->
+  <xacro:property name="camera_rpy" value="0 0 0"/>
+
+  <!-- Camera link (visual, collision, inertial) -->
+  <link name="${camera_link_name}">
+    <visual>
+      <geometry>
+        <box size="0.03 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="black"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.03 0.05 0.05"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="${camera_mass}"/>
+      <inertia ixx="0.0001" ixy="0.0" ixz="0.0" iyy="0.0001" iyz="0.0" izz="0.0001"/>
+    </inertial>
+  </link>
+
+  <!-- Fixed joint attaching camera to base_link -->
+  <joint name="${camera_joint_name}" type="fixed">
+    <parent link="base_link"/>
+    <child link="${camera_link_name}"/>
+    <origin xyz="${camera_xyz}" rpy="${camera_rpy}"/>
+  </joint>
+
+  <!-- Gazebo sensor plugin for RGB camera -->
+  <gazebo reference="${camera_link_name}">
+    <sensor name="rgb_camera" type="camera">
+      <pose>0 0 0 0 0 0</pose>                     <!-- relative to link -->
+      <update_rate>30</update_rate>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <topic>/${robot_name}/camera/image_raw</topic>
+      <gz_frame_id>${camera_frame}</gz_frame_id>
+      <camera>
+        <horizontal_fov>1.047</horizontal_fov>     <!-- 60° -->
+        <image>
+          <width>640</width>
+          <height>480</height>
+          <format>R8G8B8</format>                  <!-- 24‑bit color -->
+        </image>
+        <clip>
+          <near>0.1</near>
+          <far>100.0</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>                   <!-- small noise -->
+        </noise>
+      </camera>
+    </sensor>
+  </gazebo>
+
+</robot>

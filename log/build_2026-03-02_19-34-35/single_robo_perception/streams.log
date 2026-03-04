@@ -1,0 +1,24 @@
+[1.368s] Invoking command in '/home/asd/temp_git_repo/sakar_asignment/src/single_robo_perception': PYTHONPATH=/home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_perception build --build-base /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build install --record /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/install.log --single-version-externally-managed install_data
+[1.839s] running egg_info
+[1.840s] writing ../../build/single_robo_perception/single_robo_perception.egg-info/PKG-INFO
+[1.840s] writing dependency_links to ../../build/single_robo_perception/single_robo_perception.egg-info/dependency_links.txt
+[1.840s] writing entry points to ../../build/single_robo_perception/single_robo_perception.egg-info/entry_points.txt
+[1.840s] writing requirements to ../../build/single_robo_perception/single_robo_perception.egg-info/requires.txt
+[1.841s] writing top-level names to ../../build/single_robo_perception/single_robo_perception.egg-info/top_level.txt
+[1.843s] reading manifest file '../../build/single_robo_perception/single_robo_perception.egg-info/SOURCES.txt'
+[1.844s] writing manifest file '../../build/single_robo_perception/single_robo_perception.egg-info/SOURCES.txt'
+[1.844s] running build
+[1.844s] running build_py
+[1.844s] copying single_robo_perception/camera_feed.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception
+[1.845s] running install
+[1.845s] running install_lib
+[1.846s] copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception/camera_feed.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception
+[1.847s] byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception/camera_feed.py to camera_feed.cpython-310.pyc
+[1.848s] running install_data
+[1.848s] running install_egg_info
+[1.851s] removing '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[1.851s] Copying ../../build/single_robo_perception/single_robo_perception.egg-info to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception-0.0.0-py3.10.egg-info
+[1.852s] running install_scripts
+[1.878s] Installing camera_feed script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/single_robo_perception
+[1.878s] writing list of installed files to '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/install.log'
+[1.911s] Invoked command in '/home/asd/temp_git_repo/sakar_asignment/src/single_robo_perception' returned '0': PYTHONPATH=/home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_perception build --build-base /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build install --record /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/install.log --single-version-externally-managed install_data

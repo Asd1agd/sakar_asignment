@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>single_robo_perception</name>
+  <version>0.0.0</version>
+  <description>Package for a single robot perception including camera, LiDAR, IMU, and robot description.</description>
+  <maintainer email="a93054223@gmail.com">asd</maintainer>
+  <license>Apache-2.0</license>  <!-- or your preferred license -->
+
+  <!-- Build tool dependency for ament_python -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Core ROS 2 dependencies for nodes and messages -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>          <!-- optional but common for camera pipelines -->
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>                 <!-- for odometry -->
+  <depend>tf2_ros</depend>                  <!-- for tf publishing -->
+
+  <!-- System dependencies (OpenCV is brought in by cv_bridge, but can be explicit) -->
+  <depend>libopencv-dev</depend>   <!-- optional: explicit OpenCV dependency -->
+
+  <!-- Testing dependencies (already present) -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

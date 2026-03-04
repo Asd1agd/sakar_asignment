@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/single_robo_perception/single_robo_perception.egg-info
+writing ../../build/single_robo_perception/single_robo_perception.egg-info/PKG-INFO
+writing dependency_links to ../../build/single_robo_perception/single_robo_perception.egg-info/dependency_links.txt
+writing entry points to ../../build/single_robo_perception/single_robo_perception.egg-info/entry_points.txt
+writing requirements to ../../build/single_robo_perception/single_robo_perception.egg-info/requires.txt
+writing top-level names to ../../build/single_robo_perception/single_robo_perception.egg-info/top_level.txt
+writing manifest file '../../build/single_robo_perception/single_robo_perception.egg-info/SOURCES.txt'
+reading manifest file '../../build/single_robo_perception/single_robo_perception.egg-info/SOURCES.txt'
+writing manifest file '../../build/single_robo_perception/single_robo_perception.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib
+creating /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception
+copying single_robo_perception/camera_feed.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception
+copying single_robo_perception/__init__.py -> /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception
+running install
+running install_lib
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception/camera_feed.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception
+copying /home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/build/lib/single_robo_perception/__init__.py -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception/camera_feed.py to camera_feed.cpython-310.pyc
+byte-compiling /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/share/ament_index
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/share/ament_index/resource_index
+creating /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/share/ament_index/resource_index/packages
+copying resource/single_robo_perception -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/share/ament_index/resource_index/packages
+copying package.xml -> /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/share/single_robo_perception
+running install_egg_info
+Copying ../../build/single_robo_perception/single_robo_perception.egg-info to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/python3.10/site-packages/single_robo_perception-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_feed script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_perception/lib/single_robo_perception
+writing list of installed files to '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_perception/install.log'

@@ -46,16 +46,16 @@ def generate_launch_description():
         ])
     )
 
-    # 2. Launch navigation and mapping
-    nav2_stack_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource([
-            PathJoinSubstitution([
-                single_robo_bringup_pkg,
-                'launch',
-                'single_robo_navigation.launch.py'
-            ])
-        ])
-    )
+    # # 2. Launch navigation and mapping
+    # nav2_stack_launch = IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource([
+    #         PathJoinSubstitution([
+    #             single_robo_bringup_pkg,
+    #             'launch',
+    #             'single_robo_navigation.launch.py'
+    #         ])
+    #     ])
+    # )
 
     # RViz2 node
     rviz2_node = Node(
@@ -72,7 +72,7 @@ def generate_launch_description():
     ld.add_action(use_sim_time_arg)
     ld.add_action(spawn_launch)
     ld.add_action(nav_map_launch)
-    ld.add_action(nav2_stack_launch)
+    # ld.add_action(nav2_stack_launch)
 
     # 4. RViz2 (start after everything is ready)
     ld.add_action(TimerAction(

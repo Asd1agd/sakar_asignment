@@ -1,0 +1,3 @@
+[console_scripts]
+camera_feed = single_robo_perception.camera_feed:main
+

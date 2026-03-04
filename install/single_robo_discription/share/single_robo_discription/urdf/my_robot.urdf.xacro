@@ -12,6 +12,7 @@
     <xacro:include filename="mobile_base_gazebo.xacro" />
     <xacro:include filename="lidar_sensor.xacro"/>
     <xacro:include filename="imu_sensor.xacro"/>
+    <xacro:include filename="camera.xacro"/>
     
     
 

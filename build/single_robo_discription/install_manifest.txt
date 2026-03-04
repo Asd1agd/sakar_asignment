@@ -3,6 +3,7 @@
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/.vscode/c_cpp_properties.json
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/.vscode/settings.json
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/imu_sensor.xacro
+/home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/camera.xacro
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/lidar_sensor.xacro
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/common_properties.xacro
 /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/mobile_base.xacro
