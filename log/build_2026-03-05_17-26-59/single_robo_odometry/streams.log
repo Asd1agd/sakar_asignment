@@ -1,0 +1,27 @@
+[3.177s] Invoking command in '/home/asd/temp_git_repo/sakar_asignment/src/single_robo_odometry': PYTHONPATH=/home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/install.log --single-version-externally-managed install_data
+[4.165s] running egg_info
+[4.167s] writing ../../build/single_robo_odometry/single_robo_odometry.egg-info/PKG-INFO
+[4.168s] writing dependency_links to ../../build/single_robo_odometry/single_robo_odometry.egg-info/dependency_links.txt
+[4.168s] writing entry points to ../../build/single_robo_odometry/single_robo_odometry.egg-info/entry_points.txt
+[4.169s] writing requirements to ../../build/single_robo_odometry/single_robo_odometry.egg-info/requires.txt
+[4.169s] writing top-level names to ../../build/single_robo_odometry/single_robo_odometry.egg-info/top_level.txt
+[4.175s] reading manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+[4.178s] writing manifest file '../../build/single_robo_odometry/single_robo_odometry.egg-info/SOURCES.txt'
+[4.178s] running build
+[4.178s] running build_py
+[4.180s] running install
+[4.181s] running install_lib
+[4.185s] running install_data
+[4.185s] running install_egg_info
+[4.191s] removing '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry-0.0.0-py3.10.egg-info' (and everything under it)
+[4.192s] Copying ../../build/single_robo_odometry/single_robo_odometry.egg-info to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages/single_robo_odometry-0.0.0-py3.10.egg-info
+[4.194s] running install_scripts
+[4.257s] Installing imu_republisher script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.258s] Installing odom_tf_pub script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.258s] Installing odom_tf_pub_inv script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.258s] Installing odom_tf_pub_w_error script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.260s] Installing odom_tf_pub_w_error_inv script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.261s] Installing odometry_calculation script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.263s] Installing odometry_error script to /home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/single_robo_odometry
+[4.264s] writing list of installed files to '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/install.log'
+[4.539s] Invoked command in '/home/asd/temp_git_repo/sakar_asignment/src/single_robo_odometry' returned '0': PYTHONPATH=/home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asd/temp_git_repo/sakar_asignment/install/single_robo_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/single_robo_odometry build --build-base /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/build install --record /home/asd/temp_git_repo/sakar_asignment/build/single_robo_odometry/install.log --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from single_robo_custom_interface/msg/ComWithID.msg
+// generated code does not contain a copyright notice
+
+
+module single_robo_custom_interface {
+  module msg {
+    typedef double double__3[3];
+    @verbatim (language="comment", text=
+      "nearest_cluster_centroid_point = [x, y, z], id")
+    struct ComWithID {
+      double__3 com_arr;
+
+      int32 id;
+    };
+  };
+};

@@ -1,0 +1,7 @@
+{
+  "package_name": "single_robo_custom_interface",
+  "non_idl_tuples": [
+    "/home/asd/temp_git_repo/sakar_asignment/src/single_robo_custom_interface:msg/ClusterPoints.msg",
+    "/home/asd/temp_git_repo/sakar_asignment/src/single_robo_custom_interface:msg/ComWithID.msg"
+  ]
+}

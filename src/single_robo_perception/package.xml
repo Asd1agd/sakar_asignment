@@ -18,6 +18,7 @@
   <depend>geometry_msgs</depend>
   <depend>nav_msgs</depend>                 <!-- for odometry -->
   <depend>tf2_ros</depend>                  <!-- for tf publishing -->
+  <depend>single_robo_custom_interface</depend>  <!-- for custom messages -->
 
   <!-- System dependencies (OpenCV is brought in by cv_bridge, but can be explicit) -->
   <depend>libopencv-dev</depend>   <!-- optional: explicit OpenCV dependency -->

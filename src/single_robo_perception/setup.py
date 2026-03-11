@@ -21,6 +21,9 @@ setup(
     entry_points={
         'console_scripts': [
             'camera_feed = single_robo_perception.camera_feed:main',
+            'camera_feed_old = single_robo_perception.camera_feed_old:main',
+            'camera_feed_edit = single_robo_perception.camera_feed_edit:main',
+            'rviz_point_visualiser = single_robo_perception.rviz_point_visualiser:main',
         ],
     },
 )

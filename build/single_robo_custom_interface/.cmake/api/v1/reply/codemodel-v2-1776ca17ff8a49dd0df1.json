@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-65bff7abf35bcf7513f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "single_robo_custom_interface__py",
+					"jsonFile" : "directory-single_robo_custom_interface__py-5cf663eb9e8b14c9f06a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface/single_robo_custom_interface__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "single_robo_custom_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_single_robo_custom_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_single_robo_custom_interface_egg-6a491b016f40839133e2.json",
+					"name" : "ament_cmake_python_build_single_robo_custom_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_single_robo_custom_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_single_robo_custom_interface-d8720ddec373e5898c5b.json",
+					"name" : "ament_cmake_python_copy_single_robo_custom_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface-a3af1bc296cfce139236.json",
+					"name" : "single_robo_custom_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__cpp-13a3c834a9c9013bf93f.json",
+					"name" : "single_robo_custom_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "single_robo_custom_interface__py::@1474f6d236089cc2f38a",
+					"jsonFile" : "target-single_robo_custom_interface__py-4eab9ef186c30d6e653d.json",
+					"name" : "single_robo_custom_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_generator_c-01a3b24f21c716e648ee.json",
+					"name" : "single_robo_custom_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_generator_py-98866a675139d2205d40.json",
+					"name" : "single_robo_custom_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_c-f0eec40096bcd37ad55a.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_c__pyext-9e4e8d1162e8834c5125.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_cpp-da7172ef019b8022d9a0.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_fastrtps_c-2509158f288a58f56d89.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_fastrtps_c__pyext-ee3c1e716597aa766070.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp-8aee30376360db5d90cc.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_introspection_c-3c3222e8dc658963ce44.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_introspection_c__pyext-9415eaa5db3def5bcd7c.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface__rosidl_typesupport_introspection_cpp-3f839b5dd0c642462d79.json",
+					"name" : "single_robo_custom_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single_robo_custom_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single_robo_custom_interface_uninstall-97d8d05a544738380187.json",
+					"name" : "single_robo_custom_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d554152c76eb286540a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface",
+		"source" : "/home/asd/temp_git_repo/sakar_asignment/src/single_robo_custom_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

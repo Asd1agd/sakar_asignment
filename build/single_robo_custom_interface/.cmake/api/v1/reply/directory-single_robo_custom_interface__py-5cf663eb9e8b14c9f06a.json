@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "single_robo_custom_interface__py",
+		"source" : "/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface/single_robo_custom_interface__py"
+	}
+}

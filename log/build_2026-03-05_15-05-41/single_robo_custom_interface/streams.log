@@ -1,0 +1,253 @@
+[0.063s] Invoking command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/sakar_asignment/src/single_robo_custom_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.256s] -- The CXX compiler identification is GNU 11.4.0
+[0.267s] -- Detecting C compiler ABI info
+[0.379s] -- Detecting C compiler ABI info - done
+[0.389s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.389s] -- Detecting C compile features
+[0.390s] -- Detecting C compile features - done
+[0.393s] -- Detecting CXX compiler ABI info
+[0.513s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.526s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.801s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.055s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.079s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.113s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.741s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.387s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.397s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.439s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.439s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.439s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.439s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.469s] -- Found PythonExtra: .so  
+[2.545s] -- Configuring done
+[2.576s] -- Generating done
+[2.587s] -- Build files have been written to: /home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface
+[2.596s] Invoked command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/asd/temp_git_repo/sakar_asignment/src/single_robo_custom_interface -DCMAKE_INSTALL_PREFIX=/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface
+[2.598s] Invoking command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface -- -j8 -l8
+[2.665s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.683s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.696s] [  5%] Built target ament_cmake_python_copy_single_robo_custom_interface
+[3.057s] running egg_info
+[3.060s] creating single_robo_custom_interface.egg-info
+[3.060s] writing single_robo_custom_interface.egg-info/PKG-INFO
+[3.060s] writing dependency_links to single_robo_custom_interface.egg-info/dependency_links.txt
+[3.060s] writing top-level names to single_robo_custom_interface.egg-info/top_level.txt
+[3.061s] writing manifest file 'single_robo_custom_interface.egg-info/SOURCES.txt'
+[3.065s] reading manifest file 'single_robo_custom_interface.egg-info/SOURCES.txt'
+[3.067s] writing manifest file 'single_robo_custom_interface.egg-info/SOURCES.txt'
+[3.098s] [  5%] Built target single_robo_custom_interface__cpp
+[3.103s] [ 10%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/single_robo_custom_interface/msg/detail/com_with_id__functions.c.o[0m
+[3.103s] [ 10%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_generator_c.dir/rosidl_generator_c/single_robo_custom_interface/msg/detail/cluster_points__functions.c.o[0m
+[3.111s] [ 10%] Built target ament_cmake_python_build_single_robo_custom_interface_egg
+[3.120s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.120s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.122s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.176s] [ 20%] [32m[1mLinking C shared library libsingle_robo_custom_interface__rosidl_generator_c.so[0m
+[3.231s] [ 20%] Built target single_robo_custom_interface__rosidl_generator_c
+[3.255s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.257s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.257s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.529s] [ 30%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/single_robo_custom_interface/msg/cluster_points__type_support.cpp.o[0m
+[3.534s] [ 33%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/single_robo_custom_interface/msg/com_with_id__type_support.cpp.o[0m
+[3.541s] [ 35%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/single_robo_custom_interface/msg/detail/cluster_points__type_support.cpp.o[0m
+[3.548s] [ 38%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/single_robo_custom_interface/msg/detail/com_with_id__type_support.cpp.o[0m
+[3.720s] [ 41%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/single_robo_custom_interface/msg/detail/dds_fastrtps/cluster_points__type_support.cpp.o[0m
+[3.806s] [ 43%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/single_robo_custom_interface/msg/cluster_points__type_support.cpp.o[0m
+[3.880s] [ 46%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/single_robo_custom_interface/msg/com_with_id__type_support.cpp.o[0m
+[3.923s] [ 48%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/cluster_points__type_support.c.o[0m
+[3.955s] [ 51%] [32m[1mLinking CXX shared library libsingle_robo_custom_interface__rosidl_typesupport_c.so[0m
+[3.963s] [ 53%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/single_robo_custom_interface/msg/detail/cluster_points__type_support_c.cpp.o[0m
+[4.007s] [ 56%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/com_with_id__type_support.c.o[0m
+[4.032s] [ 58%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/single_robo_custom_interface/msg/detail/com_with_id__type_support_c.cpp.o[0m
+[4.051s] [ 58%] Built target single_robo_custom_interface__rosidl_typesupport_c
+[4.060s] [ 61%] [32m[1mLinking CXX shared library libsingle_robo_custom_interface__rosidl_typesupport_cpp.so[0m
+[4.075s] [ 64%] [32mBuilding CXX object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/single_robo_custom_interface/msg/detail/dds_fastrtps/com_with_id__type_support.cpp.o[0m
+[4.091s] [ 66%] [32m[1mLinking C shared library libsingle_robo_custom_interface__rosidl_typesupport_introspection_c.so[0m
+[4.160s] [ 66%] Built target single_robo_custom_interface__rosidl_typesupport_cpp
+[4.170s] [ 66%] Built target single_robo_custom_interface__rosidl_typesupport_introspection_c
+[4.285s] [ 69%] [32m[1mLinking CXX shared library libsingle_robo_custom_interface__rosidl_typesupport_introspection_cpp.so[0m
+[4.411s] [ 69%] Built target single_robo_custom_interface__rosidl_typesupport_introspection_cpp
+[4.508s] [ 71%] [32m[1mLinking CXX shared library libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_c.so[0m
+[4.623s] [ 71%] Built target single_robo_custom_interface__rosidl_typesupport_fastrtps_c
+[4.713s] [ 74%] [32m[1mLinking CXX shared library libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.828s] [ 74%] Built target single_robo_custom_interface__rosidl_typesupport_fastrtps_cpp
+[4.870s] [ 74%] Built target single_robo_custom_interface
+[4.908s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.364s] [ 76%] Built target single_robo_custom_interface__py
+[5.402s] [ 79%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/single_robo_custom_interface/msg/_com_with_id_s.c.o[0m
+[5.402s] [ 82%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_generator_py.dir/rosidl_generator_py/single_robo_custom_interface/msg/_cluster_points_s.c.o[0m
+[5.524s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/single_robo_custom_interface/libsingle_robo_custom_interface__rosidl_generator_py.so[0m
+[5.583s] [ 84%] Built target single_robo_custom_interface__rosidl_generator_py
+[5.620s] [ 92%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.620s] [ 92%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[5.620s] [ 92%] [32mBuilding C object CMakeFiles/single_robo_custom_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.729s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.730s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.734s] [100%] [32m[1mLinking C shared library rosidl_generator_py/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.779s] [100%] Built target single_robo_custom_interface__rosidl_typesupport_c__pyext
+[5.781s] [100%] Built target single_robo_custom_interface__rosidl_typesupport_introspection_c__pyext
+[5.786s] [100%] Built target single_robo_custom_interface__rosidl_typesupport_fastrtps_c__pyext
+[5.803s] Invoked command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface -- -j8 -l8
+[5.805s] Invoking command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface
+[5.819s] -- Install configuration: ""
+[5.819s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/ament_index/resource_index/rosidl_interfaces/single_robo_custom_interface
+[5.819s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.819s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/cluster_points.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/rosidl_generator_c__visibility_control.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/com_with_id.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__functions.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__type_support.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__type_support.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__functions.c
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__struct.h
+[5.820s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__functions.c
+[5.821s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__functions.h
+[5.821s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__struct.h
+[5.821s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/library_path.sh
+[5.821s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/library_path.dsv
+[5.821s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_generator_c.so
+[5.822s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_generator_c.so" to ""
+[5.822s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.822s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.822s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.822s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.823s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__rosidl_typesupport_fastrtps_c.h
+[5.823s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__rosidl_typesupport_fastrtps_c.h
+[5.823s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_c.so
+[5.823s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[5.823s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.823s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.824s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__rosidl_typesupport_introspection_c.h
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__type_support.c
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__rosidl_typesupport_introspection_c.h
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__type_support.c
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.824s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_introspection_c.so
+[5.824s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_introspection_c.so" to ""
+[5.825s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_c.so
+[5.825s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_c.so" to ""
+[5.825s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.825s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.825s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.825s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/com_with_id.hpp
+[5.825s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.825s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__builder.hpp
+[5.825s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__traits.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__traits.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__struct.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__struct.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__builder.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__type_support.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__type_support.hpp
+[5.826s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/cluster_points.hpp
+[5.827s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.827s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.827s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.827s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.827s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/dds_fastrtps
+[5.827s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__rosidl_typesupport_fastrtps_cpp.hpp
+[5.827s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__rosidl_typesupport_fastrtps_cpp.hpp
+[5.827s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_cpp.so
+[5.828s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.828s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface
+[5.828s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg
+[5.828s] -- Up-to-date: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail
+[5.828s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__rosidl_typesupport_introspection_cpp.hpp
+[5.828s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__type_support.cpp
+[5.828s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/cluster_points__type_support.cpp
+[5.828s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/include/single_robo_custom_interface/single_robo_custom_interface/msg/detail/com_with_id__rosidl_typesupport_introspection_cpp.hpp
+[5.828s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_introspection_cpp.so
+[5.829s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[5.829s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_cpp.so
+[5.829s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_typesupport_cpp.so" to ""
+[5.829s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/pythonpath.sh
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/pythonpath.dsv
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface-0.0.0-py3.10.egg-info
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface-0.0.0-py3.10.egg-info/top_level.txt
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface
+[5.830s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_com_with_id_s.c
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_cluster_points.py
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/__init__.py
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_cluster_points_s.c
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_com_with_id.py
+[5.831s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/__init__.py
+[5.832s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_introspection_c.c
+[5.832s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/_single_robo_custom_interface_s.ep.rosidl_typesupport_c.c
+[5.832s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.832s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/libsingle_robo_custom_interface__rosidl_generator_py.so
+[5.832s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.883s] Listing '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface'...
+[5.883s] Compiling '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/__init__.py'...
+[5.883s] Listing '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg'...
+[5.883s] Compiling '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/__init__.py'...
+[5.883s] Compiling '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_cluster_points.py'...
+[5.883s] Compiling '/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/msg/_com_with_id.py'...
+[5.889s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.889s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.889s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.890s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.890s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.891s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/local/lib/python3.10/dist-packages/single_robo_custom_interface/single_robo_custom_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.891s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_generator_py.so
+[5.891s] -- Set runtime path of "/home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/lib/libsingle_robo_custom_interface__rosidl_generator_py.so" to ""
+[5.891s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/msg/ClusterPoints.idl
+[5.891s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/msg/ComWithID.idl
+[5.891s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/msg/ClusterPoints.msg
+[5.892s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/msg/ComWithID.msg
+[5.892s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/ament_index/resource_index/package_run_dependencies/single_robo_custom_interface
+[5.892s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/ament_index/resource_index/parent_prefix_path/single_robo_custom_interface
+[5.892s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/ament_prefix_path.sh
+[5.892s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/ament_prefix_path.dsv
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/path.sh
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/environment/path.dsv
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/local_setup.bash
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/local_setup.sh
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/local_setup.zsh
+[5.893s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/local_setup.dsv
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/package.dsv
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/ament_index/resource_index/packages/single_robo_custom_interface
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_generator_cExport.cmake
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_generator_cExport-noconfig.cmake
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[5.894s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_introspection_cExport.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_cExport.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_cExport-noconfig.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_generator_cppExport.cmake
+[5.895s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_introspection_cppExport.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_cppExport.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[5.896s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_generator_pyExport.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/export_single_robo_custom_interface__rosidl_generator_pyExport-noconfig.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/rosidl_cmake-extras.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/ament_cmake_export_targets-extras.cmake
+[5.897s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.898s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.898s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.898s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interfaceConfig.cmake
+[5.898s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/cmake/single_robo_custom_interfaceConfig-version.cmake
+[5.898s] -- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_custom_interface/share/single_robo_custom_interface/package.xml
+[5.901s] Invoked command in '/home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asd/ros2_ws_goat2/install/multi_robo_simulator:/home/asd/ros2_ws_goat2/install/swarm_interfaces:/home/asd/ros2_ws_goat2/install/my_robot_description2:/home/asd/ros2_ws_goat2/install/my_robot_bringup2:/home/asd/ros2_ws_goat2/install/goat_robo_discription:/home/asd/ros2_ws_goat2/install/micro_ros_server:/home/asd/ros2_ws_goat2/install/micro_ros_custom_interfaces:/home/asd/ros2_ws_goat2/install/Qr_action:/home/asd/ros2_ws4/install/esp_wifi:/home/asd/ros2_ws4/install/maping_odom:/home/asd/ros2_ws9/install/turtlebot3_simulations:/home/asd/ros2_ws9/install/turtlebot3_gazebo_goat:/home/asd/ros2_ws9/install/turtlebot3_fake_node:/home/asd/ros2_ws9/install/testbed_gazebo_goat:/home/asd/ros2_ws9/install/testbed_description_goat:/home/asd/ros2_ws9/install/my_goat_pkg:/home/asd/ros2_ws9/install/goat_interfaces:/home/asd/ros2_ws9/install/goat_gazebo:/home/asd/ros2_ws7/install/my_py_pkg_anscer:/home/asd/ros2_ws/install/turtlesim_catch_them_all:/home/asd/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/asd/temp_git_repo/sakar_asignment/build/single_robo_custom_interface

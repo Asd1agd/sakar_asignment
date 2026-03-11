@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/asd/temp_git_repo/sakar_asignment/build/single_robo_discription
+-- Install configuration: ""
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/my_robot.urdf.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/mobile_base_gazebo.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/.vscode
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/.vscode/c_cpp_properties.json
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/.vscode/settings.json
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/imu_sensor.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/camera.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/lidar_sensor.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/common_properties.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//urdf/mobile_base.xacro
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//launch
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//launch/spawn_gazebo.launch.py
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//world
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//world/ware_house_edit.sdf
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//config
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//config/GZ_bridge.yaml
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//config/rviz_config.rviz
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//config/ekf.yaml
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//config/ps4_config.yaml
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse/my_map.pgm
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse/my_map.yaml
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse2
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse2/my_map.pgm
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription//maps/small_warehouse2/my_map.yaml
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/ament_index/resource_index/package_run_dependencies/single_robo_discription
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/ament_index/resource_index/parent_prefix_path/single_robo_discription
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/environment/ament_prefix_path.sh
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/environment/ament_prefix_path.dsv
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/environment/path.sh
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/environment/path.dsv
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/local_setup.bash
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/local_setup.sh
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/local_setup.zsh
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/local_setup.dsv
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/package.dsv
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/ament_index/resource_index/packages/single_robo_discription
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/cmake/single_robo_discriptionConfig.cmake
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/cmake/single_robo_discriptionConfig-version.cmake
+-- Installing: /home/asd/temp_git_repo/sakar_asignment/install/single_robo_discription/share/single_robo_discription/package.xml

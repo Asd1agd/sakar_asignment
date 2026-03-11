@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/cluster_points__type_support.c.o"
+  "CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/cluster_points__type_support.c.o.d"
+  "CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/com_with_id__type_support.c.o"
+  "CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/com_with_id__type_support.c.o.d"
+  "libsingle_robo_custom_interface__rosidl_typesupport_introspection_c.pdb"
+  "libsingle_robo_custom_interface__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/cluster_points__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/cluster_points__type_support.c"
+  "rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/com_with_id__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/single_robo_custom_interface/msg/detail/com_with_id__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/single_robo_custom_interface__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
