@@ -5,7 +5,7 @@
 
 ## Demo
 
-[![Watch the demo](https://img.shields.io/badge/▶%20Watch-Demo%20Video-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1o-fTgSENNxsisA5spfHNmja8TW3CjbuB/view?usp=sharing)
+[![Watch the demo](https://img.shields.io/badge/▶%20Watch-Demo%20Video-blue?style=for-the-badge&logo=googledrive)](https://drive.google.com/file/d/1mFiNj0ggQyKTilHqyslQ4Adlyz2z7bnM/view?usp=sharing)
 
 ---
 
